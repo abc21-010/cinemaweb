@@ -1,0 +1,221 @@
+body{
+    overflow: hidden;
+    background-color: #e8e8e8;
+    margin: 0;
+    color: #2d2e2e ;
+}
+img{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #2D527C;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+h1>a{
+    color: #2D527C;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    padding: 1em;
+    text-align: center;
+}
+.logo_pic{
+    width: 0;
+}
+.socials{
+    width: 0;
+}
+.navigation>nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #2d2e2e;
+    
+}
+.navigation>nav>ul>li>a{
+    color: white;
+}
+.categories>ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.categories>ul>*{
+    background-color: #2D527C;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    margin-right: 4em;
+}
+footer{
+    background-color: #2d2e2e ;
+    color: white;
+    margin: -8px;
+    padding: 1em;
+    clear: both;
+}
+footer>a{
+    text-decoration: none;
+}
+.footer_logo{
+    width: 4em;
+}
+.footer_complete{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer_contacts>ul>{
+    margin: -8px;
+}
+.cont{
+    margin-left: -3em;
+}
+.numbers{
+    list-style: none;
+}
+.foot{
+    margin-left: 3em;
+}
+.footer_general>ul>*{
+    margin: 1em;
+}
+@media (min-width: 760px) {
+    .logo{
+        display: flex;
+        flex-direction: row;
+       }
+        .logo_pic{
+            width: 4em;
+            margin: 1em;
+        }
+        h1{
+            margin-top: 0.8em;
+        }
+}
+@media (min-width: 1000px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        background-color: #dddddd;
+        border: none;
+        box-shadow: 0 0 1em rgba(39, 39, 39, 0.3);
+    }
+    h1>a{
+        color: #2d2e2e;
+    }
+    h1>a:hover{
+        color: #2D527C;
+    }
+    .topic{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navigation>nav>ul{
+        margin-top: 0.75em;
+        color: #e8e8e8;
+        background-color: #dddddd;
+    }
+    .navigation>nav>ul>li>a{
+        color: #2d2e2e;
+        font-weight: 900;
+    }
+    .navigation>nav>ul>li>a:hover{
+        color: #2D527C;
+    }
+    nav>ul>li{
+        margin: 1em;
+        font-size: 1.25em;
+    }
+    .socials{
+        width: 9em;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2.25em;
+    }
+    .so{
+        width: 2.6em; 
+        margin-left: 0.5em; 
+    }
+    .so>a>img:hover{
+        color: #2D527C;
+    }
+    .categories>ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .categories>ul>*{
+        background-color: #2d2e2e;
+        color: white;
+        padding: 4em;
+    }
+    .cat1:hover{
+        background-image: url(../img/VT4Xbvrg5EF9wGs2cxJqs6.jpg);
+        background-color: rgba(39, 39, 39, 0.1);
+        background-size: cover;   
+    }
+    .cat2:hover{
+        background-image: url(../img/kevin-hart-irresponsible.jpeg);
+        background-size: cover;   
+    }
+    .cat3:hover{
+        background-image: url(../img/jade-dynasty-new-fantasy-classes.jpg);
+        background-size: cover;   
+    }
+    .cat4:hover{
+        background-image: url(../img/romance.webp);
+        background-size: cover;   
+    }
+    .cat5:hover{
+        background-image: url(../img/How_Suspense_Different_Cinema_and_Literature_Twitter.jpg);
+        background-size: cover;   
+    }
+    .cat6:hover{
+        background-image: url(../img/Kylo-Rens-Path-to-the-Dark-Side-Would-Have-Embarassed-Darth-Vader-Featured.webp);
+        background-size: cover;   
+    }
+    .cat7:hover{
+        background-image: url(../img/JORDAN.jpg);
+        background-size: cover;   
+    }
+    .cat8:hover{
+        background-image: url(../img/American_western_cowboy_red_sunset_illustration_1280x1024.jpg);
+        background-size: cover;   
+    }
+    .cat9:hover{
+        background-image: url(../img/mystery-featured.webp);
+        background-size: cover;   
+    }
+    .cat10:hover{
+        background-image: url(../img/maxresdefault.jpg);
+        background-size: cover;   
+    }
+    .cat11:hover{
+        background-image: url(../img/child_and_family_services_header_image_0.jpg.webp);
+        background-size: cover;   
+    }
+    .cat12:hover{
+        background-image: url(../img/commando4.jpg);
+        background-size: cover;
+    }
+    .cat13:hover{
+        background-image: url(../img/getoutcover.jpg);
+        background-size: cover;   
+    }
+    .cat14:hover{
+        background-image: url(../img/SC-Blog_scream-scaled.jpg);
+        background-size: cover;   
+    }
+}

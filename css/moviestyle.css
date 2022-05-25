@@ -1,0 +1,228 @@
+body{
+    overflow: hidden;
+    background-color: #e8e8e8;
+    margin: 0;
+    color: #2d2e2e ;
+}
+img{
+    display: block;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #2D527C;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1em;
+}
+h1>a{
+    color: #2D527C;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+    padding: 1em;
+    text-align: center;
+}
+h6{
+    color: #2D527C;
+    text-align: center;
+    font-size: 4em;
+    margin-left: 0.5em;
+}
+.socials{
+    width: 0;
+}
+.logo_pic{
+    width: 0;
+}
+.navigation>nav>ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    list-style: none;
+    margin-bottom: 2em;
+    background-color: #2D527C;
+    padding: 1em;
+}
+.navigation>nav>ul>li>a{
+    color: white;
+}
+.carosul,
+.carosul2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.container,
+.container2{
+    text-align: start;
+    background-color: #e8e8e8;
+    height: 60vh;
+    padding: 0.5em;
+    margin: 1em ;
+    border: none;
+    box-shadow: 0 0 1em rgba(39, 39, 39, 0.6);
+}
+button{
+    cursor: pointer;
+}
+footer{
+    background-color:#A2ACBD ;
+    color: white;
+    margin: -8px;
+    padding: 1em;
+    clear: both;
+}
+footer>a{
+    text-decoration: none;
+}
+.footer_logo{
+    width: 4em;
+}
+.footer_complete{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer_contacts>ul>{
+    margin: -8px;
+}
+.cont{
+    margin-left: -3em;
+}
+.numbers{
+    list-style: none;
+}
+.foot{
+    margin-left: 3em;
+}
+.footer_general>ul>*{
+    margin: 1em;
+}
+@media (min-width: 760px) {
+    .logo{
+        display: flex;
+        flex-direction: row;
+       }
+        .logo_pic{
+            width: 4em;
+            margin: 1em;
+        }
+        h1{
+            margin-top: 0.8em;
+        }
+    .container,
+    .container2{
+        padding: 0.5em;
+        width: 65%;
+        margin: 1.5em 6em;
+    }
+    
+}
+@media (min-width: 1000px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        background-color: #dddddd;
+        border: none;
+        box-shadow: 0 0 1em rgba(39, 39, 39, 0.3);
+        height: 6.7em;
+    }
+    h1>a{
+        color: #2d2e2e;
+    }
+    h1>a:hover{
+        color: #2D527C;
+    }
+    h4{
+        margin-left: 3em;
+    }
+    h6{
+        margin-bottom: 3em;
+    }
+    .carosul,
+    .carosul2{
+        margin-left: 17.5em;
+    }
+    .container>p,
+    .container2>p{
+        margin-left: 3em;
+        margin-top: -10em;
+    }
+    .topic{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navigation>nav>ul{
+        margin-top: 0.75em;
+        color: #e8e8e8;
+        background-color: #dddddd;
+    }
+    .navigation>nav>ul>li>a{
+        color: #2d2e2e;
+        font-weight: 900;
+    }
+    .navigation>nav>ul>li>a:hover{
+        color: #2D527C;
+    }
+    nav>ul>li{
+        margin: 1em;
+        font-size: 1.25em;
+    }
+    .socials{
+        width: 9em;
+        display: flex;
+        flex-direction: row;
+        margin-top: 2.25em;
+    }
+    .so{
+        width: 2.6em; 
+        margin-left: 0.5em; 
+    }
+    .so>a>img:hover{
+        color: #2D527C;
+    }
+    .carosul,
+    .carosul2{
+        display: flex;
+        flex-direction: column;
+    }
+    .container,
+    .container2{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .container>p,
+    .container2>p{
+        grid-row-start: 2;
+        grid-column-start: 2;
+
+    }
+    .photo{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .preview{
+        background-color: #2D527C;
+        padding: -10em;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin-left: 30em;
+    }
+    .preview:hover{
+        background-color: #4370e0;
+    }
+    .preview>a{
+        color: white;
+    }
+    .big{
+        height: 7.5em;
+        margin-top: 4.9em;
+    }
+}
